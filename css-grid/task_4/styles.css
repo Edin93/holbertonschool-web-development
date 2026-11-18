@@ -31,6 +31,11 @@ h1 {
 }
 
 .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
 }
 
 .tech-item {
@@ -41,6 +46,10 @@ h1 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 180px;
     height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .tech-item:hover {
