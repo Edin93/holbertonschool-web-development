@@ -36,9 +36,9 @@ h1 {
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    /* TODO: Add display: grid */
-    /* TODO: Add grid-template-columns */
-    /* TODO: Add gap */
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 0px;
 }
 
 /* Sidebar Styles */
