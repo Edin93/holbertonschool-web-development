@@ -14,44 +14,44 @@
     </div>
 
     <!-- container wrapper -->
-    <div class="max-w-sm mx-auto">
+    <div class="max-w-sm mx-auto md:max-w-2xl lg:max-w-4xl">
         <!-- card article -->
-        <article class="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
+        <article class="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden md:flex-row">
 
             <!-- image container -->
-            <div class="w-full h-48">
+            <div class="w-full h-48 md:w-1/3 lg:w-1/4 md:h-auto">
                 <div class="w-full h-full bg-linear-to-br from-blue-400 to-purple-600 flex items-center justify-center">
                     <span class="text-6xl">📱</span>
                 </div>
             </div>
 
             <!-- content container -->
-            <div class="flex-1 p-4 flex flex-col gap-3">
+            <div class="flex-1 p-4 flex flex-col gap-3 md:p-6 lg:p-8 md:gap-4">
 
                 <!-- category badge -->
-                <span class="text-xs text-blue-600 font-semibold uppercase tracking-wider">Technology</span>
+                <span class="text-xs text-blue-600 font-semibold uppercase tracking-wider md:text-sm">Technology</span>
 
                 <!-- title -->
-                <h2 class="text-xl font-bold text-gray-900">Understanding Responsive Design in Modern Web Development</h2>
+                <h2 class="text-xl font-bold text-gray-900 md:text-2xl lg:text-3xl">Understanding Responsive Design in Modern Web Development</h2>
 
                 <!-- description -->
-                <p class="text-sm text-gray-600">
+                <p class="text-sm text-gray-600 hidden sm:block text-sm md:text-base">
                     Learn how to build responsive layouts that adapt beautifully across all devices using Tailwind CSS breakpoints and mobile-first methodology.
                 </p>
 
                 <!-- meta info container -->
-                <div class="flex flex-col gap-2 text-xs text-gray-500">
+                <div class="flex flex-col gap-2 text-xs text-gray-500 sm:flex-row sm:gap-4 md:text-sm">
                     <span>👤 John Doe</span>
                     <!-- meta separator -->
-                    <span>•</span>
+                    <span class="hidden sm:inline">•</span>
                     <span>📅 March 15, 2024</span>
                     <!-- meta separator -->
-                    <span>•</span>
+                    <span class="hidden sm:inline">•</span>
                     <span>⏱️ 5 min read</span>
                 </div>
 
                 <!-- cta button -->
-                <button class="mt-auto px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors w-full">
+                <button class="mt-auto px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors w-full md:px-6 md:py-3 md:text-base sm:w-auto">
                     Read More →
                 </button>
 
