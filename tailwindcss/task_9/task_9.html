@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCss</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 p-8">
+
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Responsive Blog Card</h1>
+        <p class="text-lg text-gray-600">Transform this card across breakpoints</p>
+    </div>
+
+    <!-- container wrapper -->
+    <div class="max-w-sm mx-auto">
+        <!-- card article -->
+        <article class="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
+
+            <!-- image container -->
+            <div class="w-full h-48">
+                <div class="w-full h-full bg-linear-to-br from-blue-400 to-purple-600 flex items-center justify-center">
+                    <span class="text-6xl">📱</span>
+                </div>
+            </div>
+
+            <!-- content container -->
+            <div class="flex-1 p-4 flex flex-col gap-3">
+
+                <!-- category badge -->
+                <span class="text-xs text-blue-600 font-semibold uppercase tracking-wider">Technology</span>
+
+                <!-- title -->
+                <h2 class="text-xl font-bold text-gray-900">Understanding Responsive Design in Modern Web Development</h2>
+
+                <!-- description -->
+                <p class="text-sm text-gray-600">
+                    Learn how to build responsive layouts that adapt beautifully across all devices using Tailwind CSS breakpoints and mobile-first methodology.
+                </p>
+
+                <!-- meta info container -->
+                <div class="flex flex-col gap-2 text-xs text-gray-500">
+                    <span>👤 John Doe</span>
+                    <!-- meta separator -->
+                    <span>•</span>
+                    <span>📅 March 15, 2024</span>
+                    <!-- meta separator -->
+                    <span>•</span>
+                    <span>⏱️ 5 min read</span>
+                </div>
+
+                <!-- cta button -->
+                <button class="mt-auto px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors w-full">
+                    Read More →
+                </button>
+
+            </div>
+        </article>
+    </div>
+
+</body>
+</html>
